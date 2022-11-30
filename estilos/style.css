@@ -1,6 +1,6 @@
 /* Pallete of color:
 Verde: #49a09d
-Lilas: #5f2c52 */
+Lilas: #5f2c82 */
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -10,7 +10,7 @@ Lilas: #5f2c52 */
 }
 
 body, html{
-    background-color: #5f2c52;
+    background-color: #5f2c82;
     width: 100vw;
     height: 100vh;
 }
@@ -31,7 +31,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.0.450);
 
@@ -42,7 +42,7 @@ section#login {
 
 section#login > div#image {
     display: block;
-    background-color: #5f2c52;
+    background-color: #5f2c82;
     background-image: url(../imagens/pattern.jpeg);
     background-repeat: no-repeat;
     height: 200px;
@@ -62,4 +62,60 @@ div#form > h1 {
 
 div#form > p {
     font-size: 0.8em;
+}
+
+form > div.field {
+    background-color: #7e35ae;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+
+div.field > label {
+    display: none;
+    
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height:40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #337b78;
+
+}
+
+form > a.button {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height:40px;
+    padding-top: 5px;
+    background-color: white;
+    color: rgb(10, 69, 34);
+    border: 1px solid ;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+form > a.button:hover {
+    background-color: #57c8c5;
+  
+}
+
+form > a.button > span {
+    font-size: 1em;
 }
